@@ -1,0 +1,206 @@
+/*reset*/
+body,p,dl,dt,dd,ul,li,input
+{
+    margin: 0;
+    padding: 0;
+}
+input
+{
+    outline: none;
+}
+body
+{
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    font-weight: normal;
+    color: black;
+    min-width: 1226px;
+}
+img{
+    vertical-align:bottom;
+    border: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+
+
+/*common*/
+.clearfix:after,
+.clearfix:before
+{
+    content: '.';
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.fl
+{
+    float: left;
+}
+.fr
+{
+    float: right;
+}
+
+.cl
+{
+    clear: both;
+    _font-size:0;
+}
+
+
+.cl-overflow
+{
+    overflow: hidden;
+    _zoom:1;
+}
+
+.container
+{
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+a.a-color-orange
+{
+    color: #FF6700;
+}
+
+.home-w795
+{
+    width: 795px;
+}
+.home-w530
+{
+    width: 530px;
+}
+
+.home-w265{
+    width: 265px;
+}
+.font-color-black
+{
+    color: #000000;
+}
+.font-color-white
+{
+    color: #ffffff;
+}
+.font-color-hui
+{
+    color: #cccccc;
+}
+.font-color-ori
+{
+    color: #FF6700;
+}
+.font-color-red
+{
+    color: #E53935;
+}
+.font-color-gr
+{
+    color: #83C44E;
+}
+
+.font-color-blu
+{
+    color:#2196F3;
+}
+.fs12
+{
+    font-size: 12px;
+}
+.fs16
+{
+    font-size: 16px;
+}
+.fs21
+{
+    font-size: 21px;
+}
+.span200-auto
+{
+    width: 200px;
+    margin: 0 auto;
+}
+.span234
+{
+    width: 234px;
+}
+.span992
+{
+    width: 992px;
+}
+.ta-center
+{
+    text-align: center;
+}
+.ta-left
+{
+    text-align: left;
+}
+
+.btc-or
+{
+    border-top:1px solid #FF6700;
+}
+.btc-gr
+{
+    border-top:1px solid #83C44E;
+}
+.btc-red
+{
+    border-top: 1px solid #E53935;
+}
+.btc-blu
+{
+    border-top: 1px solid #2196F3;
+}
+
+/*font*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?r5eksi');
+    src:  url('../fonts/icomoon.eot?r5eksi#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?r5eksi') format('truetype'),
+    url('../fonts/icomoon.woff?r5eksi') format('woff'),
+    url('../fonts/icomoon.svg?r5eksi#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    /*speak: none;*/
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-card:before {
+    content: "\e900";
+}
+.icon-sousuo:before {
+    content: "\e901";
+}
+.icon-search:before {
+    content: "\e986";
+}
+
+
